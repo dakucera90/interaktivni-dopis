@@ -32,6 +32,8 @@ body {
 }
 
 .image_box {
+    height: 500px;
+    width: 500px;
     margin: auto;
     padding: 0;
     
