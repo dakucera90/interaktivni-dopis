@@ -1,0 +1,58 @@
+{
+    "Scene1": {
+        "Background": "./images/bg02.jpg",
+        "Pages": {
+            "Page0": {
+                "Character": "Daniel",
+                "Picture": "./images/daniel.png",
+                "Text": "Zdravím a vítám vás ve svém interaktivním motivačním dopise, který jsem vytvořil specificky pro tuto pracovní na-bídku."
+            },
+            "Page1": {
+                "Character": "Daniel",
+                "Picture": "./images/daniel.png",
+                "Text": "Jmenuji se Daniel Kučera, je mi 33 let a bydlím v Brně."
+            },
+
+            "Page2":{
+                "Character": "Daniel",
+                "Picture": "./images/daniel.png",
+                "Text": "V pozadí jsem použil vlastní fotku parku Lužánky, poblíž kterého bydlím."
+            },
+
+            "Page3": {
+                "Character": "Daniel",
+                "Picture": "./images/daniel.png",
+                "Text": "Posledních téměř deset let jsem se živil jako překladatel a korektor, ale jednou za čas i jakožto grafik a web de-signér."
+            
+            },
+            "Page4": {
+                "Character": "Daniel",
+                "Picture": "./images/daniel.png",
+                "Text": "Ve volném čase jsem si občas něco kódoval a tvořil, abych nabral nějaké zkušenosti a měl i co ukázat."
+            },
+            "Page5": {
+                "Character": "Daniel",
+                "Picture": "./images/daniel.png",
+                "Text": "V poslední době jsem zvažoval změnu kariéry, takže tato nabídka přišla v perfektní čas."
+            },
+            "Page6": {
+                "Character": "Daniel",
+                "Picture": "./images/daniel.png",
+                "Text": "Nemám v tomhle oboru mnoho zkušeností, ale velmi mě baví a rychle se učím."
+            },
+            "Page7": {
+                "Character": "Daniel",
+                "Picture": "./images/daniel.png",
+                "Text": "Věřím, že tahle pozice by výborně odstartovala mou novou kariéru a pomohla mi získat spoustu zkušeností."
+            },
+            "Page8": {
+                "Character": "",
+                "Picture": "",
+                "Text": "",
+                "Options": {
+                    "↻ Spustit znovu": "Page0"
+                }
+            }
+        }
+    }
+}
