@@ -42,16 +42,12 @@ body {
     left: 35%;
     right: 30%;
 
-	border: 2px solid red;
-
     z-index: 1;
 }
 
 .image_box img {
     width: 80%;
     height: 80%;
-
-border: 2px solid red;
 }
 
 #text_box {
