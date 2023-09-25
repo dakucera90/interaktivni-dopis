@@ -77,6 +77,8 @@ function handleOptions(data) {
     $options_box.src = "";
 	if (data.Scene1.Pages[currentPage].hasOwnProperty("Options")) {
 		var o = data.Scene1.Pages[currentPage].Options;
+		$name_box.style.visibility = "hidden";
+		$image_box.style.visibility = "hidden";
 		var str = Object.keys(o).forEach(k => {
 			const item = document.createElement("div");
 			item.innerHTML = "<div class='options_item button'>" + `${k}` + "</div>"
@@ -123,8 +125,6 @@ function typeWriter(txt, i) {
 
 function checkPage(data) {
 	if (data.Scene1.Pages[currentPage].hasOwnProperty('Options')) {
-		$name_box.style.visibility = "hidden";
-		$image_box.style.visibility = "hidden";
 	return false;
 	}
 	if (data.Scene1.Pages[currentPage].hasOwnProperty('NextPage')) {
