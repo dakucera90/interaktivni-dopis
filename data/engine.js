@@ -60,24 +60,22 @@ async function grabData() {
 }
 
 async function initialize(data) {
-	$scene_box.src = "";
-	$text_box.src = "";
-	$name_box.src = "";
+    $scene_box.src = "";
+    $text_box.src = "";
+    $name_box.src = "";
     $image_box.src = "";
 
     $scene_box.style.backgroundImage = "url(" + data.Scene1.Background + ")";
     $name_box.innerText = data.Scene1.Pages[currentPage].Character;
-	$image_box.src = data.Scene1.Pages[currentPage].Picture;
-	$next.innerHTML = "Další ➔";
+    $image_box.src = data.Scene1.Pages[currentPage].Picture;
+    $next.innerHTML = "Další ➔";
 
-	typeWriter(data.Scene1.Pages[currentPage].Text);
+    typeWriter(data.Scene1.Pages[currentPage].Text);
 }
 
 function handleOptions(data) {
     $options_box.src = "";
 	if (data.Scene1.Pages[currentPage].hasOwnProperty("Options")) {
-		$name_box.style.visibility = "hidden";
-		$image_box.style.visibility = "hidden";
 		var o = data.Scene1.Pages[currentPage].Options;
 		var str = Object.keys(o).forEach(k => {
 			const item = document.createElement("div");
