@@ -38,6 +38,7 @@ body {
     padding: 0;
     
     position: absolute;
+    right: 5%;
     bottom: -63px;
 
     z-index: 1;
