@@ -27,7 +27,7 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-	
+
     background-size: cover;
 }
 
@@ -39,8 +39,7 @@ body {
     
     position: absolute;
     bottom: -63px;
-    left: 35%;
-    right: 30%;
+    
 
     z-index: 1;
 }
@@ -57,7 +56,7 @@ body {
 
     position: absolute;
     bottom: 0;
-	left: 0;
+    left: 0;
 
     overflow: auto;
     overflow-wrap: break-word;
