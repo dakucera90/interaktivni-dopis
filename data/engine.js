@@ -77,6 +77,7 @@ function handleOptions(data) {
     $options_box.src = "";
 	if (data.Scene1.Pages[currentPage].hasOwnProperty("Options")) {
 		$name_box.style.visibility = "hidden";
+		$image_box.style.visibility = "hidden";
 		var o = data.Scene1.Pages[currentPage].Options;
 		var str = Object.keys(o).forEach(k => {
 			const item = document.createElement("div");
@@ -88,6 +89,7 @@ function handleOptions(data) {
 				initialize(json);
 				$options_box.innerHTML = "";
 				$name_box.style.visibility = "visible";
+				$image_box.style.visibility = "visible";
 			})
 		})
 	}
@@ -123,6 +125,8 @@ function typeWriter(txt, i) {
 
 function checkPage(data) {
 	if (data.Scene1.Pages[currentPage].hasOwnProperty('Options')) {
+		$name_box.style.visibility = "hidden";
+		$image_box.style.visibility = "hidden";
 	return false;
 	}
 	if (data.Scene1.Pages[currentPage].hasOwnProperty('NextPage')) {
